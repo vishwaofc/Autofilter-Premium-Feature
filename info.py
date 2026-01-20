@@ -18,9 +18,9 @@ def is_enabled(value, default):
 # Bot Information Configuration
 # ============================
 SESSION = environ.get('SESSION', 'royal_search')   # Session name for the bot
-API_ID = int(environ.get('API_ID', '')) # API ID from my.telegram.org
-API_HASH = environ.get('API_HASH', '')  # API Hash from my.telegram.org
-BOT_TOKEN = environ.get('BOT_TOKEN', "")    # Bot token from @BotFather
+API_ID = int(environ.get('API_ID', '33287493')) # API ID from my.telegram.org
+API_HASH = environ.get('API_HASH', '840cc9fd8d955469c8079d3edec9b430')  # API Hash from my.telegram.org
+BOT_TOKEN = environ.get('BOT_TOKEN', "8525259720:AAHiup_FSPCFHtX-uukL8t-f-kUPzjM9dZY")    # Bot token from @BotFather
 
 # ============================
 # Bot Settings Configuration
@@ -73,8 +73,8 @@ STAR_PREMIUM_PLANS = {
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "")  # MongoDB URI for the database
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0") # Database name (default: cluster)
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://fedinolamins_db_user:FT6sPVDTp5jRLIvK@jungii.kc3luzk.mongodb.net/?appName=jungii")  # MongoDB URI for the database
+DATABASE_NAME = environ.get('DATABASE_NAME', "jungii") # Database name (default: cluster)
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'royal_files') # Collection name (default: dreamcinezone_files)
 
 # If MULTIPLE_DB Is True Then Fill DATABASE_URI2 Value Else You Will Get Error.
